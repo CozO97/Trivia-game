@@ -1,0 +1,117 @@
+</!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Trivia Game</title>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+    <script
+  src="https://code.jquery.com/jquery-3.2.1.min.js"
+  integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+  crossorigin="anonymous"></script>
+    <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <script type="text/javascript" src="assets/javascript/javascript.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <div class="page-header">
+            <h1 class="header-title">Rally Car Trivia</h1>
+        </div>
+        <!--page-header div-->
+        <div class="startGame">
+            <button type="button" class="btn btn-primary btn-lg center-block" id="startButton">Start Game!</button>
+        </div>
+        <div class="results">
+            <h1>Trivia Results</h1>
+            <p class="correctAnswers"></p>
+            <p class="incorrectAnswers"></p>
+            <button type="button" class="btn btn-primary btn-lg center-block" id="restartButton">Play Again!</button>
+        </div>
+        
+        <!--start game div-->
+        <div class="gameArea">
+            <div class="secRemaining"><p class="time"></p></div>
+            <hr>
+            <br>
+            <div class="question1">
+                <p class="questionText">What year was the drivers title officially started?</p>
+                <label class="radio-inline">
+                    <input type="radio" name="answer" id="q1a1" value="wrong">1989</label>
+                <label class="radio-inline">
+                    <input type="radio" name="answer" id="q1a2" value="wrong">1959</label>
+                <label class="radio-inline">
+                    <input type="radio" name="answer" id="q1a3" value="correct">1979</label>
+                <label class="radio-inline">
+                    <input type="radio" name="answer" id="q1a4" value="wrong">1969</label>
+            </div>
+            <br>
+            <!--question 1 div-->
+            <div class="question2">
+                <p class="questionText">After Group B was cancelled for the 1987 season, which were the replacement cars?</p>
+                <label class="radio-inline">
+                    <input type="radio" name="answer2" id="q2a1" value="wrong">Group N</label>
+                <label class="radio-inline">
+                    <input type="radio" name="answer2" id="q2a2" value="correct">Group A</label>
+                <label class="radio-inline">
+                    <input type="radio" name="answer2" id="q2a3" value="wrong">Group S</label>
+                <label class="radio-inline">
+                    <input type="radio" name="answer2" id="q2a4" value="wrong">Group C</label>
+            </div>
+            <br>
+            <!--question2 div-->
+            <div class="question3">
+                <p class="questionText">Who was the first English driver to win the driver's title?</p>
+                <label class="radio-inline">
+                    <input type="radio" name="answer3" id="q3a1" value="wrong">Richard Burns</label>
+                <label class="radio-inline">
+                    <input type="radio" name="answer3" id="q3a2" value="wrong">Jimmy McRae</label>
+                <label class="radio-inline">
+                    <input type="radio" name="answer3" id="q3a3" value="correct">Colin McRae</label>
+                <label class="radio-inline">
+                    <input type="radio" name="answer3" id="q3a4" value="wrong">Tony Pond</label>
+            </div>
+            <br>
+            <!--question3 div-->
+            <div class="question4">
+                <p class="questionText">The first official Lancia Group B rally car was the Lancia-Rally-"_____"?</p>
+                <label class="radio-inline">
+                    <input type="radio" name="answer4" id="q4a1" value="correct">Stratos</label>
+                <label class="radio-inline">
+                    <input type="radio" name="answer4" id="q4a2" value="wrong">S4</label>
+                <label class="radio-inline">
+                    <input type="radio" name="answer4" id="q4a3" value="wrong">037</label>
+                <label class="radio-inline">
+                    <input type="radio" name="answer4" id="q4a4" value="wrong">Integrale</label>
+            </div>
+            <br>
+            <!--question4 div-->
+            <div class="question5">
+                <p class="questionText">World Rally Championship for Manufacturers started officially in what year?</p>
+                <label class="radio-inline">
+                    <input type="radio" name="answer5" id="q5a1" value="correct">1973</label>
+                <label class="radio-inline">
+                    <input type="radio" name="answer5" id="q5a2" value="wrong">1963</label>
+                <label class="radio-inline">
+                    <input type="radio" name="answer5" id="q5a3" value="wrong">1953</label>
+                <label class="radio-inline">
+                    <input type="radio" name="answer5" id="q5a4" value="wrong">1983</label>
+            </div>
+            <br>
+            <!--question5 div-->
+            <div class="submitButton">
+                <button type="button" class="btn btn-primary btn-lg center-block" id="submitButton">View Results</button>
+            </div>
+            <!--submitButton div-->
+        </div>
+        <!--gameArea div -->
+    </div>
+    <!--container div -->
+    <script type="text/javascript" src="assets/javascript/javascript.js"></script>
+</body>
+
+</html>
