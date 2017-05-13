@@ -92,3 +92,18 @@ body {
     font-size: 50px;
     margin-bottom: 100px;
     margin-top: 100px;
+}
+.triviaResults {
+    text-align: center;
+    font-size: 60px;
+    margin-bottom: 30px;
+}
+.correctAnswers,
+.incorrectAnswers {
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 24px;
+}
+
+
+

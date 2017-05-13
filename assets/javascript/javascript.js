@@ -1,6 +1,6 @@
 var correctAnswer = 0;
 var incorrectAnswer = 0;
-var timer = 31;  
+var timer = 30;  
   
   function runTimer() {
 
@@ -15,7 +15,7 @@ var timer = 31;
       timer--;
 
       //  Show the number in the .timerDiv tag.
-      $('#timer').html(timer + " Seconds Remaining!");
+      $('#timer').html(timer);
 
 
       // When the time runs out
@@ -130,10 +130,11 @@ function clearForm(){
 function resetGame() {
     correctAnswer = 0;
     incorrectAnswer = 0;
-    timer = 31;
+    timer = 30;
     $(".gameArea").hide();
     $('.results').hide();
     $('.startGame').show();
+    clearInterval(intervalId);
     stop();
     clearForm();
     
