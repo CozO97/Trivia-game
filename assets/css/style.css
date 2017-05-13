@@ -104,6 +104,10 @@ body {
     margin-bottom: 30px;
     font-size: 24px;
 }
+.unanswered {
+    text-align: center;
+    font-size: 24px;
+}
 
 
 
